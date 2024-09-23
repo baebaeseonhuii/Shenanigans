@@ -13,22 +13,35 @@
 <div class="container ">
 	<div class="row justify-content-center">
 		<div class="col-6 pt-5">
-			<h1>Sign in to Shenanigans</h1>
+		<h1>Sign in to Shenanigans</h1>
 		  <div class="mb-3 mt-5">
 		    <label for="memberId" class="form-label">ID</label>
 		    <input name="memberId" type="text" class="form-control" id="memberId" aria-describedby="emailHelp">
-		    <div id="memberId" class="form-text">We'll never share your email with anyone else.</div>
 		  </div>
-		  <div class="mb-3">
-		    <label for="password" class="form-label">Password</label>
+		  <div class="mb-3 mt-5">
+		    <label for="exampleInputPassword1" class="form-label">Password</label>
 		    <input name="password" type="password" class="form-control" id="password">
 		  </div>
-		  <div class="mb-3 form-check">
-		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-		    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+		  <div class="mb-3 mt-5">
+		    <label for="name" class="form-label">Name</label>
+		    <input name="name" type="text" class="form-control" id="name">
 		  </div>
-		  <button type="submit" class="btn btn-dark">Submit</button>
-		  <a href="/member/join" class="justify-content-end">not joined yet?</a>
+		  <div class="mb-3 mt-5">
+		    <label for="nickname" class="form-label">Nickname</label>
+		    <input name="nickname" type="text" class="form-control" id="nickname">
+		  </div>
+		  <div class="mb-3 mt-5">
+		    <label for="exampleInputEmail1" class="form-label">Email address</label>
+		    <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+		    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+		  </div>
+		  <div class="mb-3 mt-5">
+		    <label for="birthday" class="form-label">Date of Birth</label>
+		    <input name="birthday" type="date" class="form-control" id="memberId" aria-describedby="emailHelp">
+		  </div>
+		  
+		  <button type="submit" class="btn btn-dark">Join</button>
+		  
 		</div>
 	
 	</div>
