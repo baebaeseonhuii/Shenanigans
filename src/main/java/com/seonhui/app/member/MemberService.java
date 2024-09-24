@@ -7,12 +7,12 @@ import org.springframework.stereotype.Service;
 public class MemberService {
 	
 	@Autowired
-	private MemberMapper memberMapper;
+	private MemberRepository memberRepository;
 	
-	public int memberJoin(MemberVO memberVO) throws Exception{
-		int result = memberMapper.memberJoin(memberVO);
+	public MemberVO memberJoin(MemberVO memberVO) throws Exception{
+		memberVO = memberRepository.save(memberVO);
 		
-		return result;
+		return memberVO;
 	}
 	
 }

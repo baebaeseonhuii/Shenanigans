@@ -10,6 +10,6 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String home() throws Exception{
-		return "index";
+		return "member/login";
 	}
 }
