@@ -23,7 +23,7 @@ public class MemberVO {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long memberNum;
-	@Column
+	@Column(unique = true)
 	private String memberId;
 	@Column
 	private String memberPassword;
