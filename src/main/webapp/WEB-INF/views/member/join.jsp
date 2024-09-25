@@ -16,31 +16,32 @@
 		<h1>Sign in to Shenanigans</h1>
 		  <div class="mb-3 mt-5">
 		    <label for="memberId" class="form-label">ID</label>
-		    <input name="MEMBER_ID" type="text" class="form-control" id="memberId" aria-describedby="emailHelp">
+		    <input name="memberId" type="text" class="form-control" id="memberId" aria-describedby="emailHelp">
 		  </div>
+		  
 		  <div class="mb-3 mt-5">
 		    <label for="exampleInputPassword1" class="form-label">Password</label>
-		    <input name="MEMBER_PASSWORD" type="password" class="form-control" id="password">
+		    <input name="memberPassword" type="password" class="form-control" id="password">
 		  </div>
 		  <div class="mb-3 mt-5">
 		    <label for="name" class="form-label">Name</label>
-		    <input name="MEMBER_NAME" type="text" class="form-control" id="name">
+		    <input name="memberName" type="text" class="form-control" id="name">
 		  </div>
 		  <div class="mb-3 mt-5">
 		    <label for="nickname" class="form-label">Nickname</label>
-		    <input name="MEMBER_NICKNAME" type="text" class="form-control" id="nickname">
+		    <input name="memberNickname" type="text" class="form-control" id="nickname">
 		  </div>
 		  <div class="mb-3 mt-5">
 		    <label for="exampleInputEmail1" class="form-label">Email address</label>
-		    <input name="MEMBER_EMAIL" type="email" class="form-control" id="email">
+		    <input name="memberEmail" type="email" class="form-control" id="email">
 		  </div>
 		  <div class="mb-3 mt-5">
 		    <label for="mobile" class="form-label">Mobile</label>
-		    <input name="MEMBER_MOBILE" type="text" class="form-control" id="mobile">
+		    <input name="memberMobile" type="text" class="form-control" id="mobile">
 		  </div>
 		  <div class="mb-3 mt-5">
 		    <label for="birthday" class="form-label">Date of Birth</label>
-		    <input name="MEMBER_BIRTHDAY" type="date" class="form-control" id="memberId" aria-describedby="emailHelp">
+		    <input name="memberBirthday" type="date" class="form-control" id="memberId" aria-describedby="emailHelp">
 		  </div>
 		  
 		  <button type="submit" class="btn btn-dark">Join</button>

@@ -21,6 +21,9 @@ import lombok.ToString;
 public class MemberVO {
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long memberNum;
+	@Column
 	private String memberId;
 	@Column
 	private String memberPassword;

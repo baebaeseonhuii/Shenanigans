@@ -28,4 +28,14 @@ public class MemberController {
 		
 		return "redirect:/member/login";
 	}
+	
+	@GetMapping("login")
+	public void memberLogin() throws Exception {
+		
+	}
+	
+	@PostMapping("login")
+	public void memberLogin(MemberVO memberVO) throws Exception {
+		
+	}
 }
